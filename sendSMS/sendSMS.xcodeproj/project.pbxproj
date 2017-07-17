@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E393FE1EC9701E00230403 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E393FD1EC9701E00230403 /* main.m */; };
+		19E394011EC9701E00230403 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E394001EC9701E00230403 /* AppDelegate.m */; };
+		19E394041EC9701F00230403 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E394031EC9701F00230403 /* ViewController.m */; };
+		19E394071EC9701F00230403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E394051EC9701F00230403 /* Main.storyboard */; };
+		19E394091EC9701F00230403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E394081EC9701F00230403 /* Assets.xcassets */; };
+		19E3940C1EC9701F00230403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E3940A1EC9701F00230403 /* LaunchScreen.storyboard */; };
+		19F5051B1F1CBA0D001B8589 /* dialpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5051A1F1CBA0D001B8589 /* dialpadViewController.m */; };
+		19F5051F1F1CC921001B8589 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 19F5051E1F1CC8EF001B8589 /* tap.aif */; };
+		19F505211F1CC9BF001B8589 /* telefone.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F505201F1CC9BF001B8589 /* telefone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19E393F91EC9701D00230403 /* sendSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sendSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E393FD1EC9701E00230403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19E393FF1EC9701E00230403 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19E394001EC9701E00230403 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19E394021EC9701F00230403 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19E394031EC9701F00230403 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19E394061EC9701F00230403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19E394081EC9701F00230403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19E3940B1EC9701F00230403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19E3940D1EC9701F00230403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F505191F1CBA0D001B8589 /* dialpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dialpadViewController.h; sourceTree = "<group>"; };
+		19F5051A1F1CBA0D001B8589 /* dialpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dialpadViewController.m; sourceTree = "<group>"; };
+		19F5051E1F1CC8EF001B8589 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+		19F505201F1CC9BF001B8589 /* telefone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telefone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E393F61EC9701D00230403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E393F01EC9701D00230403 = {
+			isa = PBXGroup;
+			children = (
+				19F505201F1CC9BF001B8589 /* telefone.png */,
+				19E393FB1EC9701D00230403 /* sendSMS */,
+				19E393FA1EC9701D00230403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19E393FA1EC9701D00230403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19E393F91EC9701D00230403 /* sendSMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19E393FB1EC9701D00230403 /* sendSMS */ = {
+			isa = PBXGroup;
+			children = (
+				19F505191F1CBA0D001B8589 /* dialpadViewController.h */,
+				19F5051A1F1CBA0D001B8589 /* dialpadViewController.m */,
+				19E393FF1EC9701E00230403 /* AppDelegate.h */,
+				19E394001EC9701E00230403 /* AppDelegate.m */,
+				19E394021EC9701F00230403 /* ViewController.h */,
+				19E394031EC9701F00230403 /* ViewController.m */,
+				19E394051EC9701F00230403 /* Main.storyboard */,
+				19E394081EC9701F00230403 /* Assets.xcassets */,
+				19E3940A1EC9701F00230403 /* LaunchScreen.storyboard */,
+				19E3940D1EC9701F00230403 /* Info.plist */,
+				19E393FC1EC9701E00230403 /* Supporting Files */,
+			);
+			path = sendSMS;
+			sourceTree = "<group>";
+		};
+		19E393FC1EC9701E00230403 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19F5051E1F1CC8EF001B8589 /* tap.aif */,
+				19E393FD1EC9701E00230403 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19E393F81EC9701D00230403 /* sendSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E394101EC9701F00230403 /* Build configuration list for PBXNativeTarget "sendSMS" */;
+			buildPhases = (
+				19E393F51EC9701D00230403 /* Sources */,
+				19E393F61EC9701D00230403 /* Frameworks */,
+				19E393F71EC9701D00230403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sendSMS;
+			productName = sendSMS;
+			productReference = 19E393F91EC9701D00230403 /* sendSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19E393F11EC9701D00230403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Chandni;
+				TargetAttributes = {
+					19E393F81EC9701D00230403 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7E7WKW772Q;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 19E393F41EC9701D00230403 /* Build configuration list for PBXProject "sendSMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19E393F01EC9701D00230403;
+			productRefGroup = 19E393FA1EC9701D00230403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E393F81EC9701D00230403 /* sendSMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19E393F71EC9701D00230403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F5051F1F1CC921001B8589 /* tap.aif in Resources */,
+				19F505211F1CC9BF001B8589 /* telefone.png in Resources */,
+				19E3940C1EC9701F00230403 /* LaunchScreen.storyboard in Resources */,
+				19E394091EC9701F00230403 /* Assets.xcassets in Resources */,
+				19E394071EC9701F00230403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E393F51EC9701D00230403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E394041EC9701F00230403 /* ViewController.m in Sources */,
+				19E394011EC9701E00230403 /* AppDelegate.m in Sources */,
+				19F5051B1F1CBA0D001B8589 /* dialpadViewController.m in Sources */,
+				19E393FE1EC9701E00230403 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19E394051EC9701F00230403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E394061EC9701F00230403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19E3940A1EC9701F00230403 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E3940B1EC9701F00230403 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19E3940E1EC9701F00230403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: sandeep mahajan (T35J7R6N2B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: sandeep mahajan (T35J7R6N2B)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7E7WKW772Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "536d3488-773a-4edb-ba4b-0d5ca3e28dca";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_VeneerApp;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19E3940F1EC9701F00230403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: sandeep mahajan (T35J7R6N2B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: sandeep mahajan (T35J7R6N2B)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7E7WKW772Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "536d3488-773a-4edb-ba4b-0d5ca3e28dca";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_VeneerApp;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19E394111EC9701F00230403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ansh Jn (HWJS47QHPA)";
+				DEVELOPMENT_TEAM = 7E7WKW772Q;
+				INFOPLIST_FILE = sendSMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veneer.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "98076a1a-3d6f-417e-b460-a1a6126fbb8d";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_VeneerApp_new;
+			};
+			name = Debug;
+		};
+		19E394121EC9701F00230403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ansh Jn (HWJS47QHPA)";
+				DEVELOPMENT_TEAM = 7E7WKW772Q;
+				INFOPLIST_FILE = sendSMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veneer.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "98076a1a-3d6f-417e-b460-a1a6126fbb8d";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_VeneerApp_new;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E393F41EC9701D00230403 /* Build configuration list for PBXProject "sendSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E3940E1EC9701F00230403 /* Debug */,
+				19E3940F1EC9701F00230403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E394101EC9701F00230403 /* Build configuration list for PBXNativeTarget "sendSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E394111EC9701F00230403 /* Debug */,
+				19E394121EC9701F00230403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19E393F11EC9701D00230403 /* Project object */;
+}
